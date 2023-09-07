@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 import { Metadata } from 'next'
-import { Htag } from './components';
+import { Button, Htag } from './components';
 
 // export const metadata: Metadata = {
 //   title: 'Main Page',
@@ -16,8 +16,9 @@ export async function generateMetadata(): Promise<Metadata>{
 
 export default function Home(): JSX.Element {
   return (
-    <div>
+    <>
       <Htag tag="h1">Text</Htag>
-    </div>
+      <Button appearance='primary'>Button</Button>
+    </>
   )
 }
