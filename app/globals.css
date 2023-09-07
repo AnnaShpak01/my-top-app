@@ -1,4 +1,11 @@
 :root {
+  --black: #3B434E;
+	--white: white;
+	--primary: #7653FC;
+	--red: #FC836D;
+	--green: #1DC37E;
+	--green-light: #C8F8E4;
+	--font-family: 'Noto Sans KR', sans-serif;
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
@@ -86,13 +93,11 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  margin:0;
+  padding:0;
+  color: var(--black);
+	background: #F5F6F8;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 a {
@@ -105,3 +110,7 @@ a {
     color-scheme: dark;
   }
 }
+
+
+/*-----------------------------------*/
+
