@@ -2,6 +2,7 @@ import Image from 'next/image'
 import styles from './page.module.css'
 import { Metadata } from 'next'
 import { Button, Htag } from './components';
+import Logo from '../public/vercel.svg';
 
 // export const metadata: Metadata = {
 //   title: 'Main Page',
@@ -17,9 +18,10 @@ export async function generateMetadata(): Promise<Metadata>{
 export default function Home(): JSX.Element {
   return (
     <>
+    <Logo/>
       <Htag tag="h1">Text</Htag>
-      <Button appearance='primary' className="dghj">Button</Button>
-      <Button appearance='ghost'>Button</Button>
+      <Button appearance='primary' arrow='right'>Button</Button>
+      <Button appearance='ghost' arrow='down'>Button</Button>
     </>
   )
 }
