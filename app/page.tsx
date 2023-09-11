@@ -1,31 +1,19 @@
-'use client'
-import React, { useState } from 'react'
-import { Button, Htag, P, Rating, Tag } from './components'
+import Image from 'next/image'
+import styles from './page.module.css'
+import { Metadata } from 'next'
+import Logo from '../public/vercel.svg'
 
-export default function Home(): JSX.Element {
-  const [rating, setRating] = useState<number>(4)
+// export const metadata: Metadata = {
+// 	title: 'Исправленные данные',
+// }
 
-  return (
-    <>
-      <Htag tag="h1">HeadLine</Htag>
-      <Button appearance="primary" arrow="right">
-        Button
-      </Button>
-      <Button appearance="ghost" arrow="down">
-        Button
-      </Button>
-      <P size="l">Large</P>
-      <P>Medium</P>
-      <P size="s">Small</P>
-      <Tag size="s">Ghost</Tag>
-      <Tag size="m" color="red">
-        Red
-      </Tag>
-      <Tag size="s" color="green">
-        Green
-      </Tag>
-      <Tag color="primary">Green</Tag>
-      <Rating rating={rating} isEditable setRating={setRating} />
-    </>
-  )
+export async function generateMetadata(): Promise<Metadata> {
+  // ...
+  return {
+    title: 'ComputedMeta',
+  }
+}
+
+export default function Home() {
+  return <main className={styles.main}>Main page</main>
 }
