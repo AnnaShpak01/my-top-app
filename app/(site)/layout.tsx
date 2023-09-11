@@ -23,9 +23,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={inter.className}>
         <nav className={styles.nav}>
           <ul>
-            <li>Курсы</li>
-            <li>Для детей</li>
-            <li>О нас</li>
+            <li>Courses</li>
+            <li>For children</li>
+            <li>About</li>
           </ul>
         </nav>
         {children}
