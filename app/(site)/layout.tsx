@@ -1,9 +1,14 @@
+import { LayoutProps } from './layout.props'
 import './globals.css'
 import type { Metadata } from 'next'
 import styles from './page.module.css'
 import { Open_Sans, Noto_Sans_KR } from 'next/font/google'
 import Link from 'next/link'
 import Script from 'next/script'
+import { Header } from './components/Header/Header'
+import { Sidebar } from './components/Sidebar/Sidebar'
+import { Footer } from './components/Footer/Footer'
+import { FunctionComponent } from 'react'
 
 const inter = Open_Sans({ subsets: ['latin'] })
 const notosans = Noto_Sans_KR({
@@ -21,15 +26,23 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className={inter.className}>
-        <nav className={styles.nav}>
-          <ul>
-            <li>Courses</li>
-            <li>For children</li>
-            <li>About</li>
-          </ul>
-        </nav>
-        {children}
+        <Header />
+        <div>
+          <Sidebar />
+          <div>{children}</div>
+        </div>
+        <Footer />
       </body>
     </html>
   )
+}
+
+export const withLayout = <T extends Record<string, unknown>>(Component: FunctionComponent<T>) => {
+  return function withLayoutComponent(props: T): JSX.Element {
+    return (
+      <RootLayout>
+        <Component {...props} />
+      </RootLayout>
+    )
+  }
 }
