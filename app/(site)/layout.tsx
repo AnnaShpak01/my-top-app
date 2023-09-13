@@ -26,12 +26,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Header />
-        <div>
-          <Sidebar />
-          <div>{children}</div>
+        <div className={styles.wrapper}>
+          <Header className={styles.header} />
+          <Sidebar className={styles.sidebar} />
+          <div className={styles.body}>{children}</div>
+          <Footer className={styles.footer} />
         </div>
-        <Footer />
       </body>
     </html>
   )

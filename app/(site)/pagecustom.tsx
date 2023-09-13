@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react'
-import { Button, Htag, P, Rating, Tag } from './components'
+import { Button, Htag, P, Rating, Tag } from '../components'
 
 export default function Home(): JSX.Element {
   const [rating, setRating] = useState<number>(4)
