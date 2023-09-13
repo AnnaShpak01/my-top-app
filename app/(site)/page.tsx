@@ -16,6 +16,7 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export function Home() {
+  console.log('I am home')
   return <main className={styles.main}>Main page</main>
 }
 
