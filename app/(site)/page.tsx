@@ -3,6 +3,7 @@ import styles from './page.module.css'
 import { Metadata } from 'next'
 import { withLayout } from './layout'
 import { Menu } from './components/menu'
+import { getMenu } from '@/api/menu'
 
 // export const metadata: Metadata = {
 // 	title: 'Исправленные данные',
@@ -16,6 +17,8 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export async function Home() {
+  const menu = await getMenu(0)
+
   return (
     <main className={styles.main}>
       Main Page
