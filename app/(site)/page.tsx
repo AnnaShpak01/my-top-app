@@ -2,7 +2,8 @@ import Image from 'next/image'
 import styles from './page.module.css'
 import { Metadata } from 'next'
 import { getMenu } from '@/api/menu'
-import { Menu } from './components/menu'
+import { Menu } from './components/Menu/Menu'
+import { Sidebar } from './components/Sidebar/Sidebar'
 
 // export const metadata: Metadata = {
 // 	title: 'Исправленные данные',
@@ -22,10 +23,5 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function Home() {
   const menu = await getMenu(0)
 
-  return (
-    <main className={styles.main}>
-      Main Page
-      <Menu />
-    </main>
-  )
+  return <main className={styles.main}>Main Page</main>
 }

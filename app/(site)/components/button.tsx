@@ -10,7 +10,7 @@ export default function Button() {
 
   return (
     <>
-      <button onClick={() => setCounter(counter + 1)}>Кнопка</button>
+      <button onClick={() => setCounter(counter + 1)}>Button</button>
       <div>{counter}</div>
     </>
   )
