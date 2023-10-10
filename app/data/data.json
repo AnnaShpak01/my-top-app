@@ -1,0 +1,29 @@
+{
+  "pages": [
+    {
+      "alias": "python",
+      "title": "Python Fundamentals: Python Course For Complete Beginners",
+      "description": "Learn Python from Scratch and Build a Solid Foundation in Programming, Python Basics, Learn fundamentals of Python!"
+    },
+    {
+      "alias": "java-script",
+      "title": "Java Script"
+    },
+    {
+      "alias": "c-sharp",
+      "title": "С#"
+    },
+    {
+      "alias": "react",
+      "title": "React - The Complete Guide 2023 (incl. React Router & Redux)"
+    },
+    {
+      "alias": "angular",
+      "title": "Angular"
+    },
+    {
+      "alias": "vue-js",
+      "title": "Vue.js"
+    }
+  ]
+}

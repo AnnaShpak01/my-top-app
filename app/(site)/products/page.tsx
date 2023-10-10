@@ -8,5 +8,5 @@ export const metadata: Metadata = {
 }
 
 export default function Home(): JSX.Element {
-  return <div>Courses</div>
+  return <div>Products</div>
 }

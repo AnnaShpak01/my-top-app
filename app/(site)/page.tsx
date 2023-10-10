@@ -4,6 +4,7 @@ import { Metadata } from 'next'
 import { getMenu } from '@/api/menu'
 import { Menu } from './components/Menu/Menu'
 import { Sidebar } from './components/Sidebar/Sidebar'
+import data from '../data/data.json'
 
 // export const metadata: Metadata = {
 // 	title: 'Исправленные данные',
@@ -21,7 +22,8 @@ export async function generateMetadata(): Promise<Metadata> {
 // });
 
 export default async function Home() {
-  const menu = await getMenu(0)
+  const menu = getMenu(0)
+  console.log(menu)
 
   return <main className={styles.main}>Main Page</main>
 }

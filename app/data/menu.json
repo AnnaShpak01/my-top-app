@@ -1,0 +1,71 @@
+{
+  "menu": [
+    {
+      "first": {
+        "route": "courses",
+        "name": "Courses",
+        "icon": "<CoursesIcon />",
+        "id": "TopLevelCategory.Courses"
+      },
+
+      "under": [
+        {
+          "_id": { "secondCategory": "Languages" },
+          "pages": [
+            {
+              "alias": "python",
+              "title": "Python",
+              "_id": "fdhhfgjh",
+              "category": "Python"
+            },
+            {
+              "alias": "java-script",
+              "title": "JavaScript",
+              "_id": "qasdrtg",
+              "category": "Java Script"
+            },
+            {
+              "alias": "c-sharp",
+              "title": "C#",
+              "_id": "kh2e67",
+              "category": "C Sharp"
+            }
+          ]
+        },
+        {
+          "_id": { "secondCategory": "Frameworks" },
+          "pages": [
+            {
+              "alias": "react",
+              "title": "React",
+              "_id": "egrekjgr",
+              "category": "React"
+            },
+            {
+              "alias": "angular",
+              "title": "Angular",
+              "_id": "bnkjt",
+              "category": "Angular"
+            },
+            {
+              "alias": "vue-js",
+              "title": "Vue.js",
+              "_id": "bnht45",
+              "category": "Vue.js"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "first": {
+        "route": "books",
+        "name": "Books",
+        "icon": "<BooksIcon />",
+        "id": "TopLevelCategory.Books"
+      },
+
+      "under": []
+    }
+  ]
+}

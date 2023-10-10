@@ -1,72 +1,66 @@
 'use client'
-
 import styles from './Menu.module.css'
 import cn from 'classnames'
-import { useContext, useEffect } from 'react'
-import { AppContext } from '../../context/app.сontext'
-import { FirstLevelMenuItem, PageItem } from '../../../../interfaces/menu.interface'
-import CoursesIcon from './icons/courses.svg'
-import ServicesIcon from './icons/services.svg'
-import BooksIcon from './icons/books.svg'
-import ProductsIcon from './icons/products.svg'
-import { TopLevelCategory } from '../../../../interfaces/page.interface'
-import { firstLevelMenu } from '../../helpers/helpers'
+//import { useContext } from 'react'
+//import { AppContext } from '../../context/app.сontext'
+//import { FirstLevelMenuItem, MenuItem, PageItem } from '../../../../interfaces/menu.interface'
 import Link from 'next/link'
+import { useRouter, usePathname } from 'next/navigation'
+//import { firstLevelMenu } from '../../helpers/helpers'
+//import { getMenu } from '@/api/menu'
+import menuData from '../../../data/menu.json'
+import { useState } from 'react'
 
-export const Menu = (): JSX.Element => {
-  const { menu, setMenu, firstCategory } = useContext(AppContext)
+export default function Menu() {
+  const menu = menuData.menu
+  const pathThird = usePathname().split('/')
+  const [activeFirstLevel, setActiveFirstLevel] = useState('courses')
+  const [activeThirdLevel, setActiveThirdLevel] = useState(pathThird[pathThird.length - 1])
 
-  const buildFirstLevel = () => {
-    return (
-      <>
-        {firstLevelMenu.map((menu) => (
-          <div key={menu.route}>
-            <Link href={`/${menu.route}`}>
-              <div
-                className={cn(styles.firstLevel, {
-                  [styles.firstLevelActive]: menu.id == firstCategory,
-                })}>
-                {menu.icon}
-                <span>{menu.name}</span>
-              </div>
-            </Link>
-            {menu.id == firstCategory && buildSecondLevel(menu)}
-          </div>
-        ))}
-      </>
-    )
-  }
-
-  const buildSecondLevel = (menuItem: FirstLevelMenuItem) => {
-    return (
-      <div className={styles.secondBlock}>
-        {menu.map((m) => (
-          <div key={m._id.secondCategory}>
-            <div className={styles.secondLevel}>{m._id.secondCategory}</div>
+  return (
+    <>
+      {menu.map((menuItem, index) => (
+        <div key={index}>
+          <Link href={`/${menuItem.first.route}`}>
             <div
-              className={cn(styles.secondLevelBlock, {
-                [styles.secondLevelBlockOpened]: m.isOpened,
-              })}>
-              {buildThirdLevel(m.pages, menuItem.route)}
+              className={cn(styles.firstLevel, {
+                [styles.firstLevelActive]: menuItem.first.route === activeFirstLevel,
+              })}
+              onClick={() => {
+                setActiveFirstLevel(menuItem.first.route)
+                setActiveThirdLevel('')
+              }}>
+              {menuItem.first.name}
             </div>
-          </div>
-        ))}
-      </div>
-    )
-  }
+          </Link>
+          {menuItem.under.length > 0 && menuItem.first.route === activeFirstLevel && (
+            <div className={styles.secondBlock}>
+              {menuItem.under.map((secondCategoryItem, secondCategoryIndex) => (
+                <div key={secondCategoryIndex}>
+                  <div className={styles.secondLevel}>{secondCategoryItem._id.secondCategory}</div>
 
-  const buildThirdLevel = (pages: PageItem[], route: string) => {
-    return pages.map((p, i) => (
-      <Link href={`/${route}/${p.alias}`} key={i}>
-        <div
-          className={cn(styles.thirdLevel, {
-            [styles.thirdLevelActive]: false,
-          })}>
-          {p.category}
+                  {secondCategoryItem.pages.length > 0 && (
+                    <div className={cn(styles.thirdLevelGroup)}>
+                      {secondCategoryItem.pages.map((pageItem, pageIndex) => (
+                        <div key={pageIndex}>
+                          <Link
+                            href={`/${menuItem.first.route}/${pageItem.alias}`}
+                            className={cn(styles.thirdLevel, {
+                              [styles.thirdLevelActive]: pageItem.alias === activeThirdLevel,
+                            })}
+                            onClick={() => setActiveThirdLevel(pageItem.alias)}>
+                            {pageItem.title}
+                          </Link>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          )}
         </div>
-      </Link>
-    ))
-  }
-
-  return <div className={styles.menu}>{buildFirstLevel()}</div>
+      ))}
+    </>
+  )
 }
