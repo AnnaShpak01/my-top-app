@@ -1,0 +1,228 @@
+{
+  "pages": [
+    {
+      "alias": "python",
+      "title": "Python Fundamentals: Python Course For Complete Beginners",
+      "description": "Learn Python from Scratch and Build a Solid Foundation in Programming, Python Basics, Learn fundamentals of Python!",
+      "image": "/images/python.jpeg",
+      "initialRating": 4,
+      "learn": [
+        "Develop a strong foundation in Python programming, including variables, data types, and operators.",
+        "Learn to break down complex problems, create algorithmic solutions, and implement them in Python.",
+        "Gain the confidence to write and execute Python programs independently.",
+        "Dive into practical exercises and projects that reinforce your learning and coding skills.",
+        "Discover how Python is used in web development, data analysis, and more, with real-world examples."
+      ],
+      "requirements": [
+        "This course is designed for individuals with no previous programming experience. Absolute beginners are welcome!",
+        "An open and positive attitude towards learning and problem-solving.",
+        "An eagerness to explore and experiment with Python programming on your own, beyond the scope of the course"
+      ],
+      "about": [
+        "Python Fundamentals: Python Course For Complete Beginners",
+        "Are you an absolute beginner looking to step into the world of programming? Welcome to our comprehensive \"Python for complete Beginners\" course, where you'll embark on an exciting journey to master programming using the versatile and powerful language of Python. No prior coding experience? No problem! This course is designed to be your friendly guide, offering a seamless introduction to the art of coding through Python.",
+        "Through a carefully crafted curriculum, we'll take you from the very basics of Python programming, guiding you through its syntax, data types, and fundamental concepts. We'll cover essential topics such as variables, loops, conditional statements, and functions, providing you with a solid foundation to build upon.",
+        "Python—the popular and highly-readable object-oriented language—is both powerful and relatively easy to learn. Whether you're new to programming or an experienced developer, this course can help you get started with Python. Joe Marini provides an overview of the installation process, basic Python syntax, and an example of how to construct and run a simple Python program. Learn to work with dates and times, read and write files, and retrieve and parse HTML, JSON, and XML data from the web.",
+        "The Python programming language has become one of the most popular languages in the world, and it's not hard to see why this has happened. Python has an easy-to-learn structure. It runs on multiple operating systems, both on the client and the cloud, and it has a vast ecosystem of tools and libraries that address a large number of programming scenarios. I've been building software professionally for some of the biggest and best known companies in Silicon valley for more than 30 years. In this course, you will get a hands-on introduction to the Python programming language. We'll start off by learning how to determine if Python is installed on your system and how to install it if it isn't already there. Next, we'll see how to build our first Python program in just a few lines of code. Then we'll examine the basics of the language, data types, variables, loops, functions, classes, and more. We'll move on to working with some of Python's built in high-level data types, such as dates, times, and files and directories. And finally, we'll wrap up by taking advantage of Python's extensive library of pre-built modules to build advanced features like retrieving data from the internet and processing information such as HTML, XML, and JSON. If you're ready to start building the next generation of cross-platform applications that run on the client as well as the cloud, then let's get started learning Python.",
+        "Your Python journey will kick off with an introduction to the language. From understanding its syntax to discovering data types, you'll build a solid foundation. Through hands-on exercises, you'll progressively delve into core concepts like loops, conditional statements, and functions. Our step-by-step approach ensures that you grasp each concept before moving forward, promoting a seamless learning curve.",
+        "By the time you complete this course, you won't just know Python; you'll be a Python programmer. You'll be able to tackle coding challenges, automate tasks, and translate your ideas into functional programs. Whether you're interested in web development, data analysis, or simply want to sharpen your logical thinking, Python opens doors to various domains. So, embark on this enriching adventure with us, and let the language of Python become your tool for innovation and creativity."
+      ]
+    },
+    {
+      "alias": "java-script",
+      "title": "Javascript Complete Guide With Practical Javascript Projects",
+      "description": "JavaScript is a programming language for Front End Web Development beside HTML & CSS. Learn JS with Java Script projects",
+      "image": "/images/javascript.jpeg",
+      "initialRating": 5,
+      "learn": [
+        "What are Javascript variables, why are they used",
+        "What is Javascript Boolean Logic",
+        "How to include JS File in HTML CSS Javascript",
+        "What is conditional statements (if else, switch case, ternary operator), how to use in Javascript",
+        "How to write Javascript Functions, what are the differences between Function Decleration and Function Expression",
+        "What is Javascript loops (for loops, while loops, continue and break statements), how to use them",
+        "How to create Javascript Arrays, Array methods (push, pop, shift, unshift ...), Array iteration",
+        "How to create Javascript objects, how to update them, object methods",
+        "What is DOM, how to manipulate DOM in Javascript",
+        "JavaScript is a text-based computer programming language used to make dynamic web pages.",
+        "What is JavaScript? JavaScript is a curly-braced, dynamically typed, prototype-based, object-oriented programming language.",
+        "JavaScript is the programming language that allows users to interact with the websites that they're visiting, making it a very important language for webdevelop",
+        "What are the main uses of JavaScript? JavaScript is a text-based programming language used for client- and server-side development.",
+        "React vs. Angular vs. Vue: what is the best JavaScript framework? Choosing the best JavaScript framework for your web project depends on what you are lookingfor",
+        "What is JSON and what is it used for? Because of the evolution of the JavaScript language, JavaScript has a variety of techniques for creating objects.",
+        "With all of the different JavaScript IDEs available, the best option depends on how you intend to use it, along with your personal preferences."
+      ],
+      "requirements": [
+        "Basic knowledge of HTML and CSS for JavaScript",
+        "Willingness and Motivation to successfully complete the training",
+        "Desire to learn Javascript",
+        "Desire learn Javascript Projects",
+        "Desire to learn Modern Javascipt",
+        "Desire to learn javascript libraries; React, Angular, NodeJS",
+        "Desire to learn Javascript Apps",
+        "Nothing else! It’s just you, your computer and your ambition to get started today"
+      ],
+      "about": [
+        "JavaScript is a programming language for Front End Web Development beside HTML & CSS. Learn JS with Java Scipt projects",
+        "This course is for beginners. Before taking this course, you only need to have a basic knowledge of HTML and CSS. In our course, the basics of JavaScript are dealt with in detail, and students are provided to test what they have learned with code quizzes prepared for each subject.",
+        "JavaScript is the number one programming language for internet applications.",
+        "Here's how a JavaScript code works, not just how it works. Because in today's JavaScript world, besides writing a code, you need to know how to debug this topic and be able to read every written JavaScript code. React, javascript, javascript projects, angular project, angular, react projects, angular projects, react Project, javascript Project, app Project, real World Project, javascript libraries, javascript app",
+        "JavaScript is a text-based computer programming language used to make dynamic web pages. A must-learn for aspiring web developers or programmers, JavaScript can be used for features like image carousels, displaying countdowns and timers, and playing media on a webpage. With JavaScript online classes, you can learn to build interactive web applications, choose the best framework, and work with other programming languages like HTML and CSS.",
+        "During our course, you will be informed about the basics of JavaScript in detail and how to solve problems.",
+        "The most important feature that distinguishes this course from the others is that it deals with the most basic issues about JavaScript in detail and helps students to put what they have learned in theory into practice.",
+        "In our course, you can test what you have learned on both MAC and Windows computers. You do not need to purchase any tools or applications as free tools and platforms are used.",
+        "During the course, I made sure to explain all the topics that may seem complicated to you as simple and detailed as possible. I have used some diagrams to help you understand better.",
+        "What is JavaScript?",
+        "JavaScript is a curly-braced, dynamically typed, prototype-based, object-oriented programming language. It started as the programming language for the web and is one of the three layers of standard web technologies — the other two being HTML and CSS. JavaScript allows you to create and control content dynamically on a web page without requiring a page reload. Web browsers are able to interpret it, and when triggered by events, modify the HTML and CSS of a web page with dynamic updates. JavaScript also uses asynchronous calls to fetch data from web services in the background. Although it was initially only used in web browsers, JavaScript engines have since been put to use as servers with Node.js, included in desktop application frameworks like Electron, and embedded in phone frameworks like Apache Cordova.",
+        "Why is JavaScript important?",
+        "JavaScript is the programming language that allows users to interact with the websites that they're visiting, making it a very important language for web developers to know. In the past, most developers focused on the backend; JavaScript was only relevant when they needed to use visual effects. As web development evolved and the focus shifted towards user experience, programmers started to rely on JavaScript for their frontend code heavily. Today, most sites use JavaScript to fetch and submit data, use logic, and generate HTML in browsers. JavaScript can also communicate asynchronously with data servers in the background without interrupting the user interaction in the foreground. These features make JavaScript not only an important language but a necessary language for modern web development.",
+        "What are the main uses of JavaScript?",
+        "JavaScript is a text-based programming language used for client- and server-side development. Web developers have used JavaScript since its inception to add simple interactivity to web pages like modals, animated elements, or image slideshows. While that is still one of its primary uses, Javascript has evolved to building complete web applications. SPAs, or single page applications, depend on JavaScript-based frameworks like React, Angular, and Vue to bring a desktop-like application experience to the browser. However, it's important to note that web browsers aren't places that make good use of the programming language. Javascript is also popular for building web services and back-end infrastructure with Node.js. React Native, Xamarin, Ionic, and NativeScript frameworks use JavaScript for developing phone apps as well.",
+        "React vs. Angular vs. Vue: what is the best JavaScript framework?",
+        "Choosing the best JavaScript framework for your web project depends on what you are looking for. React is a popular framework, which means you will find a lot of community support if you need help. It is also considered relatively easy to learn but is being developed at a rapid pace. Angular is a framework that makes data binding easy so that you can template an application faster. It also uses the RxJS library to simplify asynchronous programming and Typescript (which compiles to JavaScript) for a cleaner, less error-prone development process. Some cons of Angular are that it can have a steep learning curve and can be complex. Vue is a lightweight framework, so it is easy to learn, very performant, and flexible. Some cons of Vue are limited plugins, and its flexibility can lead to irregular code.",
+        "What is JSON and what is it used for?",
+        "Because of the evolution of the JavaScript language, JavaScript has a variety of techniques for creating objects. But, ultimately in the background, JavaScript is using a syntax called JSON. JSON stands for JavaScript Object Notation and is a standard text-based format used to represent objects in JavaScript. The same basic types of data represented in Javascript can also be represented in JSON, including strings, numbers, arrays, booleans, and JavaScript objects. Although JSON is based on the JavaScript object, it is not just used in JavaScript. It is also used as a format to transfer data from a web browser to a server and vice versa because of the format's simplicity and small size. The JSON format is used in REST APIs for this purpose and has replaced XML as the standard format for many APIs. Because of this, just about any language you use will have a method of converting data into JSON to interact with REST APIs.",
+        "What is AJAX and what is it used for?",
+        "AJAX stands for Asynchronous JavaScript and XML. AJAX is a technology that developers use to create better, faster and more interactive web applications. AJAX uses XHTML for content, CSS to style the page, and JavaScript for controlling content dynamically. AJAX allows you to update a web page without reloading the page (this technique is called a “SPA” or Single Page Application), request data for the page after it has loaded, receive data after the page has loaded, and send data to the server in the background. Despite XML being part of the acronym that makes up AJAX, AJAX can send and receive data in any format, including JSON or plain text. While traditional web applications use synchronous methods to send and receive information from a web server, AJAX can use asynchronous API calls in the background without blocking activity in the browser. AJAX is a data-driven rather than a page-driven technology.",
+        "How can I teach myself Javascript?",
+        "One of the best ways to learn to write code is through an online course that teaches you how to write JavaScript with an instructor that will explain the code, what versions you should use, and why. Learning to develop a real-world application, with an instructor explaining in a step-by-step fashion, will teach you modern code techniques.",
+        "What is the best IDE for Javascript?",
+        "With all of the different JavaScript IDEs available, the best option depends on how you intend to use it, along with your personal preferences. Webstorm is a popular JavaScript IDE from JetBrains. It provides fast static code analysis, integrated testing, local history, code refactoring, and debugging. While the IDE requires a paid subscription, many developers swear by it because of its compatibility with JavaScript, HTML, and CSS. Those searching for a free option might prefer VS Code. This general-purpose, open-source IDE comes with IntelliSense, Git integration, and debugging features built-in. Many third-party extensions are available to add new language and programming features, making it one of the more flexible choices. Atom is another general-purpose IDE that is popular with JavaScript developers. It is also free, open-source, and has third-party extensions to add functionality."
+      ]
+    },
+    {
+      "alias": "c-sharp",
+      "title": "Ultimate C# Masterclass for 2024",
+      "description": "In-depth .NET programming course from basics to advanced. Focus on clean code, performance and practice.",
+      "image": "/images/csharp.png",
+      "initialRating": 4,
+      "learn": [
+        "You will gain an in-depth understanding of C#.",
+        "You will understand how to write high-performance C# code.",
+        "You will understand the principles of object-oriented programming",
+        "You will learn the most useful design patterns.",
+        "You will learn to write code of excellent quality.",
+        "You will gain the knowledge necessary for C# job interviews.",
+        "You will practice your skills by solving exercises in the browser, as well as by creating advanced projects.",
+        "You will learn how to use Visual Studio like a pro.",
+        "You will learn how to create unit tests using NUnit and Moq libraries"
+      ],
+      "requirements": [
+        "No programming experience is needed. I'll teach you everything you need to know.",
+        "A computer (Windows/macOS) with an access to the Internet.",
+        "No paid software is needed; all tools used in this course are free."
+      ],
+      "about": [
+        "Welcome to the \"Ultimate C# Masterclass\" course! Are you ready to take your knowledge and career to the next level?",
+        "43 hours of on-demand videos, 62 coding exercises, 71 quizzes, and 15 assignments. All this is to help you start coding in C# like a pro.",
+        "I'm a .NET Technical Lead with over 10 years of professional experience. I will help you on this journey every step of the way, no matter if you are a complete beginner who has never coded before or a developer who wants to advance to the next level. We will start from the basics, but we will not stop there.",
+        "I will not only teach you how to code but also how to code well. Clean code and good design will be our priorities, and design patterns will be shown in practice, not as abstract concepts that seem impossible to be used in real-life challenges. Refactoring will be something we practice all the time.",
+        "Programs written in C# are fast, but we can make them faster. The performance will be discussed in detail.",
+        "You will learn more than C# syntax. It is not only a course about the language but a course about programming in general. You will understand why all the things we learn are needed and how to use them right. Moreover, I will show you how they work under the hood, and thanks to that, you will gain an in-depth understanding of C#. This course also covers the development of unit tests using NUnit and Moq libraries.",
+        "Practice makes perfect. You will solve dozens of coding exercises right in the browser. You will also implement coding assignments, such as a program processing the data read from an external API or an app for analyzing PDF files. You will also solidify your knowledge by solving short quizzes as well as doing final knowledge checks after each section.",
+        "This course comes with a 30-day money-back guarantee. If you are not satisfied, you can return it and get all your money back, no questions asked. In other words, you don't risk anything by purchasing this course. You have nothing to lose, and the knowledge you will gain may take your career to the next level."
+      ]
+    },
+    {
+      "alias": "react",
+      "title": "React - The Complete Guide 2023 (incl. React Router & Redux)",
+      "description": "Dive in and learn React.js from scratch! Learn React, Hooks, Redux, React Router, Next.js, Best Practices and way more!",
+      "image": "/images/react.png",
+      "initialRating": 5,
+      "learn": [
+        "Learn React from the ground up and finish the course as an advanced React developer",
+        "Build multiple high-quality demo apps, including a fullstack app built with NextJS",
+        "Join more than 750,000 students in this course & more than 2,500,000 students I taught across all my courses",
+        "Build multiple demo projects & explore realistic examples",
+        "Follow along locally or in a cloud development environment",
+        "Learn all about React Hooks and React Components",
+        "Manage complex state efficiently with React's Context API & React Redux",
+        "Build standalone React apps & applications connected to a backend via HTTP",
+        "Learn about routing & route-related data fetching with React Router",
+        "Implement user authentication in React apps",
+        "Build fullstack React apps with NextJS",
+        "Get started with React Unit Testing"
+      ],
+      "requirements": [
+        "JavaScript + HTML + CSS fundamentals are absolutely required",
+        "You DON'T need to be a JavaScript expert to succeed in this course!",
+        "ES6+ JavaScript knowledge is beneficial but not a must-have",
+        "NO prior React or any other JS framework experience is required!"
+      ],
+      "about": [
+        "A Course For Busy Customers & Business Professionals!",
+        "This course also comes with two paths which you can take: The \"complete\" path (full >40h course) and the \"summary\" (fast-track) path (~4h summary module) - you can choose the path that best fits your time requirements!",
+        "React.js is THE most popular JavaScript library you can use and learn these days to build modern, reactive user interfaces for the web.",
+        "This course teaches you React in-depth, from the ground up, step by step by diving into all the core basics, exploring tons of examples and also introducing you to advanced concepts as well.",
+        "You'll get all the theory, tons of examples and demos, assignments and exercises and tons of important knowledge that is skipped by most other resources - after all, there is a reason why this course is that huge! :)",
+        "And in case you don't even know why you would want to learn React and you're just here because of some ad or \"the algorithm\" - no worries: ReactJS is a key technology as a web developer and in this course I will also explain WHY it's that important!",
+        "This course will teach you React.js in a practice-oriented way, using all the latest patterns and best practices you need. You will learn all the key fundamentals as well as advanced concepts and related topics to turn you into a React.js developer.",
+        "This is a huge course because it really covers EVERYTHING you need to know and learn to become a React.js developer!",
+        "No matter if you know nothing about React or if you already got some basic React knowledge (not required but also not a problem), you will get tons of useful information and knowledge out of this course!",
+        "My goal with this course is to ensure that you feel confident working with React, so that you can apply for React jobs, use it in your own projects or simply enhance your portfolio as a developer - whatever your goal is: This course gets you there!",
+        "I kept this course updated since its initial launch to ensure that you always learn React in the best possible and up-do-date way!"
+      ]
+    },
+    {
+      "alias": "angular",
+      "title": "Complete Angular Developer in 2023: Zero to Mastery",
+      "description": "Get job ready with Angular! Master the latest version of Angular and learn to build large scale apps that set you apart",
+      "image": "/images/angular.png",
+      "initialRating": 4,
+      "learn": [
+        "Build enterprise level Angular and TypeScript applications to deploy to production",
+        "Learn to lead Angular projects by making good architecture decisions and helping others on your team",
+        "Use WebAssembly and Rust in your applications to improve performance and combine with the power of Angular",
+        "Learn the latest features in Angular: Routing, Directives, Pipes, Services, Ahead of time Compilation + much more",
+        "Use RxJS and Streams in your applications",
+        "Master Angular Design Patterns",
+        "Set up authentication and user accounts",
+        "Use Firebase to build full stack applications",
+        "Learn to build reactive, performant, large scale applications like a senior developer",
+        "Learn to deal with Memory Leaks in your projects to improve performance",
+        "Master Production and Deployment of a professional Angular app",
+        "Learn to use TailwindCSS in an Angular application",
+        "Master the latest ecosystem of a Angular Developer from scratch",
+        "Become the top 10% Angular Developer"
+      ],
+      "requirements": [
+        "Basic HTML, CSS and JavaScript knowledge",
+        "You do not need any experience with Angular or any other JS framework!"
+      ],
+      "about": [
+        "Using the latest version of Angular, this course is focused on efficiency and turning you into a professional Angular developer. Never spend time on confusing, out of date, incomplete tutorials anymore! Graduates of Andrei’s courses are now working at Google, Tesla, Amazon, Apple, IBM, JP Morgan, Facebook (Meta), + other top tech companies for a reason.",
+        "We guarantee you this is the most comprehensive online resource on Angular. This project based course will introduce you to all of the modern toolchain of an Angular (formally AngularJS/Angular.js) developer in 2023. Along the way, we will build a massive video sharing application using Angular, TypeScript, WebAssembly, Rust, RxJS, TailwindCSS, Firebase and much more! This is going to be a Fullstack app. We will also build other mini projects along the way so you feel confident deploying any Angular project to production in the future by yourself!",
+        "All code is going to be provided step by step and even if you don’t like to code along, you will get access to all the code from the projects we build so anyone signed up for the course will have their own project to put on their portfolio right away.",
+        "Finally, this course will be constantly evolving and updating as the landscape changes. Just as the Angular ecosystem evolves, we want this course to be constantly updated with lectures and resource for you to come back to, in order to find the latest Angular best practices anytime in the future.",
+        "This course is not about making you just code along without understanding the principles so that when you are done with the course you don’t know what to do other than watch another tutorial. No! This course will push you and challenge you to go from an absolute beginner in Angular to someone that is in the top 10% of Angular web developers. ",
+        "We guarantee you this is the most comprehensive online course on Angular! Have a look at the course outline video to see all the topics we are going to cover, all the projects we’re going to build, and all the techniques you’re going to learn to become a top Angular developer!"
+      ]
+    },
+    {
+      "alias": "vue-js",
+      "title": "Vue - The Complete Guide (incl. Router & Composition API)",
+      "description": "Vue.js is an awesome JavaScript Framework for building Frontend Applications! VueJS mixes the Best of Angular + React!",
+      "image": "/images/vue.png",
+      "initialRating": 4,
+      "learn": [
+        "Build amazing Vue.js Applications - all the Way from Small and Simple Ones up to Large Enterprise-level Ones",
+        "Understand the Theory behind Vue.js and use it in Real Projects",
+        "Leverage Vue.js in both Multi- and Single-Page-Applications (MPAs and SPAs)",
+        "Learn the latest version of Vue (Vue 3), including the brand-new Composition API"
+      ],
+      "requirements": [
+        "Basic JavaScript Knowledge is Required",
+        "ES6 Knowledge is a Plus but not a Must",
+        "Basic HTML and CSS Knowledge is assumed throughout the Course"
+      ],
+      "about": [
+        "Join this bestselling Vue course to learn how to use the latest version of VueJS to build amazing, modern web apps!",
+        "No matter at which metric you look at (Google Trends, Github Stars, Tweets ...) - VueJS is the shooting star in the world of JavaScript frameworks - it simply is amazing!",
+        "This bestselling course teaches the latest version of Vue (Vue.js 3) from the ground up and in great detail. We'll cover all the core basics but we'll not stop thereafter - this course also dives into advanced concepts like the Composition API introduced with Vue 3.",
+        "Frontend frameworks like Vue JS are extremely popular because they give us this reactive, great user experience we know from mobile apps - but now in the browser! No wonder that jobs requiring frontend framework skills like VueJS are amongst the best paid ones in the industry!",
+        "You may know Angular 2+ and ReactJS, well, VueJS combines the best of both frameworks and makes building anything from small widgets to big, enterprise-level apps a breeze and a whole lot of fun!",
+        "And if you don't know the two mentioned frameworks: That's fine, too, this course does not expect any knowledge of any other frontend framework - you will learn it all throughout this Course!"
+      ]
+    }
+  ]
+}

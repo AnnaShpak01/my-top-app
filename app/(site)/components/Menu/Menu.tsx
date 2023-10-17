@@ -8,7 +8,7 @@ import Link from 'next/link'
 import { useRouter, usePathname } from 'next/navigation'
 //import { firstLevelMenu } from '../../helpers/helpers'
 //import { getMenu } from '@/api/menu'
-import menuData from '../../../data/menu.json'
+import menuData from '../../data/menu.json'
 import { useState } from 'react'
 
 export default function Menu() {
@@ -63,4 +63,26 @@ export default function Menu() {
       ))}
     </>
   )
+}
+
+interface MenuItem {
+  first: {
+    route: string
+    name: string
+    icon: string
+    id: string
+  }
+  under: UnderItem[]
+}
+
+interface UnderItem {
+  _id: { secondCategory: string }
+  pages: PageMenuInterface[]
+}
+
+interface PageMenuInterface {
+  alias: string
+  title: string
+  _id: string
+  category: string
 }

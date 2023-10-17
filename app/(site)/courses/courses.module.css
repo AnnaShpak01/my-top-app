@@ -1,0 +1,103 @@
+.logo img {
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.logo {
+  width: 120px;
+  grid-area: logo;
+}
+
+.labeltop {
+  font-family: Noto Sans;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  grid-area: title;
+}
+
+.description {
+  font-size: 20px;
+  grid-area: description;
+}
+
+.rating {
+  font-size: 12px;
+  grid-area: rating;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.labelrating {
+  display: inline-block;
+}
+
+.wrappercontainer {
+  padding: 25px 0;
+}
+
+.wrappertop {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 8px 20px;
+  grid-template-areas:
+    'logo title '
+    'logo description '
+    'logo rating';
+  margin-bottom: 25px;
+}
+
+.h1 {
+  text-align: center;
+}
+
+.wrapperpage {
+  border: 1px solid #aaa;
+  padding: 20px 20px 0;
+  margin-bottom: 20px;
+}
+
+.learn {
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+
+.learn ul {
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 50px;
+}
+
+.learn ul li {
+  list-style-type: none;
+}
+
+.check {
+  margin-right: 5px;
+}
+
+.requirements {
+  padding: 20px 0;
+}
+
+.about {
+  margin-bottom: 40px;
+  margin-right: 20px;
+}
+
+.about .labeltop {
+  margin-bottom: 15px;
+}
+
+.about .ab {
+  margin-bottom: 10px;
+}

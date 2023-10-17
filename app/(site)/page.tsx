@@ -2,9 +2,9 @@ import Image from 'next/image'
 import styles from './page.module.css'
 import { Metadata } from 'next'
 import { getMenu } from '@/api/menu'
-import { Menu } from './components/Menu/Menu'
-import { Sidebar } from './components/Sidebar/Sidebar'
-import data from '../data/data.json'
+// import { Menu } from './components/Menu/Menu'
+// import { Sidebar } from './components/Sidebar/Sidebar'
+// import data from '../data/data.json'
 
 // export const metadata: Metadata = {
 // 	title: 'Исправленные данные',
