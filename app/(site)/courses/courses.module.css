@@ -51,7 +51,8 @@
   grid-template-areas:
     'logo title '
     'logo description '
-    'logo rating';
+    'logo rating '
+    'price price';
   margin-bottom: 25px;
 }
 
@@ -63,6 +64,7 @@
   border: 1px solid #aaa;
   padding: 20px 20px 0;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .learn {
@@ -100,4 +102,17 @@
 
 .about .ab {
   margin-bottom: 10px;
+}
+
+.price {
+  display: flex;
+  align-items: baseline;
+  grid-area: price;
+}
+
+.price span {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: var(--primary);
 }

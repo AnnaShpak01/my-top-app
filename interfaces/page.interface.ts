@@ -36,3 +36,15 @@ export interface TopPageModel {
   updatedAt: Date
   hh?: HhData
 }
+
+export interface PagesData {
+  alias: string
+  title: string
+  description: string
+  image: string
+  initialRating: number
+  price: string
+  learn: string[]
+  requirements: string[]
+  about: string[]
+}

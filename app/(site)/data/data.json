@@ -6,6 +6,7 @@
       "description": "Learn Python from Scratch and Build a Solid Foundation in Programming, Python Basics, Learn fundamentals of Python!",
       "image": "/images/python.jpeg",
       "initialRating": 4,
+      "price": "57",
       "learn": [
         "Develop a strong foundation in Python programming, including variables, data types, and operators.",
         "Learn to break down complex problems, create algorithmic solutions, and implement them in Python.",
@@ -34,6 +35,7 @@
       "description": "JavaScript is a programming language for Front End Web Development beside HTML & CSS. Learn JS with Java Script projects",
       "image": "/images/javascript.jpeg",
       "initialRating": 5,
+      "price": "34",
       "learn": [
         "What are Javascript variables, why are they used",
         "What is Javascript Boolean Logic",
@@ -96,6 +98,7 @@
       "description": "In-depth .NET programming course from basics to advanced. Focus on clean code, performance and practice.",
       "image": "/images/csharp.png",
       "initialRating": 4,
+      "price": "48",
       "learn": [
         "You will gain an in-depth understanding of C#.",
         "You will understand how to write high-performance C# code.",
@@ -129,6 +132,7 @@
       "description": "Dive in and learn React.js from scratch! Learn React, Hooks, Redux, React Router, Next.js, Best Practices and way more!",
       "image": "/images/react.png",
       "initialRating": 5,
+      "price": "55",
       "learn": [
         "Learn React from the ground up and finish the course as an advanced React developer",
         "Build multiple high-quality demo apps, including a fullstack app built with NextJS",
@@ -169,6 +173,7 @@
       "description": "Get job ready with Angular! Master the latest version of Angular and learn to build large scale apps that set you apart",
       "image": "/images/angular.png",
       "initialRating": 4,
+      "price": "37",
       "learn": [
         "Build enterprise level Angular and TypeScript applications to deploy to production",
         "Learn to lead Angular projects by making good architecture decisions and helping others on your team",
@@ -204,6 +209,7 @@
       "description": "Vue.js is an awesome JavaScript Framework for building Frontend Applications! VueJS mixes the Best of Angular + React!",
       "image": "/images/vue.png",
       "initialRating": 4,
+      "price": "39",
       "learn": [
         "Build amazing Vue.js Applications - all the Way from Small and Simple Ones up to Large Enterprise-level Ones",
         "Understand the Theory behind Vue.js and use it in Real Projects",

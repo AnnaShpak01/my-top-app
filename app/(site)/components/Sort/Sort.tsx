@@ -7,7 +7,7 @@ export const Sort = ({ sort, setSort, className, ...props }: SortProps): JSX.Ele
   return (
     <div className={cn(styles.sort, className)} {...props}>
       <div className={styles.sortName} id="sort">
-        Сортировка
+        Sort
       </div>
       <button
         id="rating"
@@ -17,7 +17,7 @@ export const Sort = ({ sort, setSort, className, ...props }: SortProps): JSX.Ele
         })}
         aria-labelledby="sort rating">
         <SortIcon className={styles.sortIcon} />
-        По рейтингу
+        By rating
       </button>
       <button
         id="price"
@@ -27,7 +27,7 @@ export const Sort = ({ sort, setSort, className, ...props }: SortProps): JSX.Ele
         })}
         aria-labelledby="sort price">
         <SortIcon className={styles.sortIcon} />
-        По цене
+        By price
       </button>
     </div>
   )

@@ -35,6 +35,10 @@ export default function PageProducts() {
             <div className={styles.labelrating}>Rating:</div>
             <Rating rating={page.initialRating} />
           </div>
+          <div className={styles.price}>
+            <div className={styles.labeltop}>Price:</div>
+            <span>{page.price} $</span>
+          </div>
         </div>
         <div className={styles.learn}>
           <div className={styles.labeltop}>What you will learn:</div>
@@ -58,7 +62,7 @@ export default function PageProducts() {
           </ul>
         </div>
         <div className={styles.about}>
-          <div className={styles.labeltop}>Description</div>
+          <div className={styles.labeltop}>Description:</div>
           {page.about.map((ab, index) => (
             <P className={styles.ab} key={index}>
               {ab}
