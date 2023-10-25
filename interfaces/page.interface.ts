@@ -1,3 +1,6 @@
+import { ReviewInterface } from '@/app/(site)/components/Review/Review'
+import { ReviewModel } from './product.interface'
+
 export enum TopLevelCategory {
   Courses,
   Books,
@@ -47,4 +50,9 @@ export interface PagesData {
   learn: string[]
   requirements: string[]
   about: string[]
+  reviews: ReviewInterface[]
+}
+
+export interface AllPagesData {
+  pages: PagesData[]
 }

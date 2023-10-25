@@ -116,3 +116,7 @@
   margin-left: 10px;
   color: var(--primary);
 }
+
+.reviewButton {
+  margin-bottom: 20px;
+}

@@ -2,26 +2,42 @@
 import styles from '../courses.module.css'
 //import { getMenu } from '@/api/menu';
 //import { getPage } from '@/api/page'
-import { TopLevelCategory } from '@/interfaces/page.interface'
 import { Metadata } from 'next'
 import { notFound, usePathname } from 'next/navigation'
-import data from '../../data/data.json'
+import data from '../../../../public/data/data.json'
 import Image from 'next/image'
 import CheckIcon from '../check.svg'
-import { Rating } from '../../components/Rating/Rating'
-import { P } from '@/app/components/P/P'
+import Rating from '../../components/Rating/Rating'
+import { P } from '@/app/(site)/components/P/P'
+import { Review } from '../../components/Review/Review'
+import { ReviewForm } from '../../components/ReviewForm/ReviewForm'
+import { forwardRef, useRef, useState } from 'react'
+import { Button } from '../../components/Button/Button'
+import { Card } from '../../components/Card/Card'
+import { motion } from 'framer-motion'
+import { Divider } from '../../components/Divider/Divider'
+
 export const metadata: Metadata = {
-  title: 'Страница',
+  title: 'Courses',
 }
 
-export default function PageProducts() {
+const PageCourses = forwardRef((props, ref) => {
   const pages = data.pages
   const pathname = usePathname()
-  const alias = pathname.split('/')
+  const alias = pathname ? pathname.split('/') : []
   const page = pages.filter((p) => p.alias == alias[alias.length - 1])[0]
   if (!page) {
     notFound()
   }
+
+  const [isReviewOpened, setIsReviewOpened] = useState<boolean>(false)
+  const reviewRef = useRef<HTMLDivElement>(null)
+
+  const variants = {
+    visible: { opacity: 1, height: 'auto' },
+    hidden: { opacity: 0, height: 0 },
+  }
+
   return (
     <>
       <div className={styles.wrappercontainer}>
@@ -69,7 +85,47 @@ export default function PageProducts() {
             </P>
           ))}
         </div>
+
+        <div className={styles.actions}>
+          <Button
+            appearance="ghost"
+            arrow={isReviewOpened ? 'down' : 'right'}
+            className={styles.reviewButton}
+            onClick={() => setIsReviewOpened(!isReviewOpened)}
+            aria-expanded={isReviewOpened}>
+            Read reviews
+          </Button>
+        </div>
+        {isReviewOpened && (
+          <motion.div
+            animate={isReviewOpened ? 'visible' : 'hidden'}
+            variants={variants}
+            initial="hidden">
+            <Card
+              color="blue"
+              className={styles.reviews}
+              ref={reviewRef}
+              tabIndex={isReviewOpened ? 0 : -1}>
+              {' '}
+              {page.reviews.map((r, i) => (
+                <div key={i}>
+                  <Review review={r} />
+                  <Divider />
+                </div>
+              ))}
+              <ReviewForm
+                productId={page.alias}
+                isOpened={isReviewOpened}
+                setIsReviewOpened={setIsReviewOpened}
+              />
+            </Card>
+          </motion.div>
+        )}
       </div>
     </>
   )
-}
+})
+
+PageCourses.displayName = 'PageCourses'
+
+export default PageCourses

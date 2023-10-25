@@ -27,6 +27,29 @@
         "The Python programming language has become one of the most popular languages in the world, and it's not hard to see why this has happened. Python has an easy-to-learn structure. It runs on multiple operating systems, both on the client and the cloud, and it has a vast ecosystem of tools and libraries that address a large number of programming scenarios. I've been building software professionally for some of the biggest and best known companies in Silicon valley for more than 30 years. In this course, you will get a hands-on introduction to the Python programming language. We'll start off by learning how to determine if Python is installed on your system and how to install it if it isn't already there. Next, we'll see how to build our first Python program in just a few lines of code. Then we'll examine the basics of the language, data types, variables, loops, functions, classes, and more. We'll move on to working with some of Python's built in high-level data types, such as dates, times, and files and directories. And finally, we'll wrap up by taking advantage of Python's extensive library of pre-built modules to build advanced features like retrieving data from the internet and processing information such as HTML, XML, and JSON. If you're ready to start building the next generation of cross-platform applications that run on the client as well as the cloud, then let's get started learning Python.",
         "Your Python journey will kick off with an introduction to the language. From understanding its syntax to discovering data types, you'll build a solid foundation. Through hands-on exercises, you'll progressively delve into core concepts like loops, conditional statements, and functions. Our step-by-step approach ensures that you grasp each concept before moving forward, promoting a seamless learning curve.",
         "By the time you complete this course, you won't just know Python; you'll be a Python programmer. You'll be able to tackle coding challenges, automate tasks, and translate your ideas into functional programs. Whether you're interested in web development, data analysis, or simply want to sharpen your logical thinking, Python opens doors to various domains. So, embark on this enriching adventure with us, and let the language of Python become your tool for innovation and creativity."
+      ],
+      "reviews": [
+        {
+          "name": "Alex",
+          "title": "good course",
+          "description": "Not bad",
+          "createdAt": "11-02-2019",
+          "rating": 4
+        },
+        {
+          "name": "Laura",
+          "title": "good course",
+          "description": "Impressed!",
+          "createdAt": "07-12-2021",
+          "rating": 5
+        },
+        {
+          "name": "Sherlock Holme",
+          "title": "апро",
+          "description": "итьбю",
+          "createdAt": "2023-10-23T15:27:08.579Z",
+          "rating": 5
+        }
       ]
     },
     {
@@ -90,6 +113,43 @@
         "One of the best ways to learn to write code is through an online course that teaches you how to write JavaScript with an instructor that will explain the code, what versions you should use, and why. Learning to develop a real-world application, with an instructor explaining in a step-by-step fashion, will teach you modern code techniques.",
         "What is the best IDE for Javascript?",
         "With all of the different JavaScript IDEs available, the best option depends on how you intend to use it, along with your personal preferences. Webstorm is a popular JavaScript IDE from JetBrains. It provides fast static code analysis, integrated testing, local history, code refactoring, and debugging. While the IDE requires a paid subscription, many developers swear by it because of its compatibility with JavaScript, HTML, and CSS. Those searching for a free option might prefer VS Code. This general-purpose, open-source IDE comes with IntelliSense, Git integration, and debugging features built-in. Many third-party extensions are available to add new language and programming features, making it one of the more flexible choices. Atom is another general-purpose IDE that is popular with JavaScript developers. It is also free, open-source, and has third-party extensions to add functionality."
+      ],
+      "reviews": [
+        {
+          "name": "Alex",
+          "title": "good course",
+          "description": "Not bad",
+          "createdAt": "11-02-2019",
+          "rating": 4
+        },
+        {
+          "name": "Laura",
+          "title": "good course",
+          "description": "Impressed!",
+          "createdAt": "07-12-2021",
+          "rating": 5
+        },
+        {
+          "name": "Sherlock Holme",
+          "title": "qwertret",
+          "description": "qrtery",
+          "createdAt": "2023-10-23T15:31:28.521Z",
+          "rating": 5
+        },
+        {
+          "name": "Anna",
+          "title": "wow",
+          "description": "perfect",
+          "createdAt": "2023-10-24T12:01:46.432Z",
+          "rating": 5
+        },
+        {
+          "name": "sfgh",
+          "title": "sdfh",
+          "description": "sdfhgh",
+          "createdAt": "2023-10-24T15:21:00.293Z",
+          "rating": 4
+        }
       ]
     },
     {
@@ -124,6 +184,22 @@
         "You will learn more than C# syntax. It is not only a course about the language but a course about programming in general. You will understand why all the things we learn are needed and how to use them right. Moreover, I will show you how they work under the hood, and thanks to that, you will gain an in-depth understanding of C#. This course also covers the development of unit tests using NUnit and Moq libraries.",
         "Practice makes perfect. You will solve dozens of coding exercises right in the browser. You will also implement coding assignments, such as a program processing the data read from an external API or an app for analyzing PDF files. You will also solidify your knowledge by solving short quizzes as well as doing final knowledge checks after each section.",
         "This course comes with a 30-day money-back guarantee. If you are not satisfied, you can return it and get all your money back, no questions asked. In other words, you don't risk anything by purchasing this course. You have nothing to lose, and the knowledge you will gain may take your career to the next level."
+      ],
+      "reviews": [
+        {
+          "name": "Alex",
+          "title": "good course",
+          "description": "Not bad",
+          "createdAt": "11-02-2019",
+          "rating": 4
+        },
+        {
+          "name": "Laura",
+          "title": "good course",
+          "description": "Impressed!",
+          "createdAt": "07-12-2021",
+          "rating": 5
+        }
       ]
     },
     {
@@ -165,6 +241,22 @@
         "No matter if you know nothing about React or if you already got some basic React knowledge (not required but also not a problem), you will get tons of useful information and knowledge out of this course!",
         "My goal with this course is to ensure that you feel confident working with React, so that you can apply for React jobs, use it in your own projects or simply enhance your portfolio as a developer - whatever your goal is: This course gets you there!",
         "I kept this course updated since its initial launch to ensure that you always learn React in the best possible and up-do-date way!"
+      ],
+      "reviews": [
+        {
+          "name": "Alex",
+          "title": "good course",
+          "description": "Not bad",
+          "createdAt": "11-02-2019",
+          "rating": 4
+        },
+        {
+          "name": "Laura",
+          "title": "good course",
+          "description": "Impressed!",
+          "createdAt": "07-12-2021",
+          "rating": 5
+        }
       ]
     },
     {
@@ -201,6 +293,36 @@
         "Finally, this course will be constantly evolving and updating as the landscape changes. Just as the Angular ecosystem evolves, we want this course to be constantly updated with lectures and resource for you to come back to, in order to find the latest Angular best practices anytime in the future.",
         "This course is not about making you just code along without understanding the principles so that when you are done with the course you don’t know what to do other than watch another tutorial. No! This course will push you and challenge you to go from an absolute beginner in Angular to someone that is in the top 10% of Angular web developers. ",
         "We guarantee you this is the most comprehensive online course on Angular! Have a look at the course outline video to see all the topics we are going to cover, all the projects we’re going to build, and all the techniques you’re going to learn to become a top Angular developer!"
+      ],
+      "reviews": [
+        {
+          "name": "Alex",
+          "title": "good course",
+          "description": "Not bad",
+          "createdAt": "11-02-2019",
+          "rating": 4
+        },
+        {
+          "name": "Laura",
+          "title": "good course",
+          "description": "Impressed!",
+          "createdAt": "07-12-2021",
+          "rating": 5
+        },
+        {
+          "name": "fgh",
+          "title": "мор",
+          "description": "hgkl;",
+          "createdAt": "2023-10-24T12:51:20.627Z",
+          "rating": 3
+        },
+        {
+          "name": "Dan ",
+          "title": "rgev",
+          "description": "asdv",
+          "createdAt": "2023-10-24T14:48:55.886Z",
+          "rating": 4
+        }
       ]
     },
     {
@@ -228,6 +350,22 @@
         "Frontend frameworks like Vue JS are extremely popular because they give us this reactive, great user experience we know from mobile apps - but now in the browser! No wonder that jobs requiring frontend framework skills like VueJS are amongst the best paid ones in the industry!",
         "You may know Angular 2+ and ReactJS, well, VueJS combines the best of both frameworks and makes building anything from small widgets to big, enterprise-level apps a breeze and a whole lot of fun!",
         "And if you don't know the two mentioned frameworks: That's fine, too, this course does not expect any knowledge of any other frontend framework - you will learn it all throughout this Course!"
+      ],
+      "reviews": [
+        {
+          "name": "Alex",
+          "title": "good course",
+          "description": "Not bad",
+          "createdAt": "11-02-2019",
+          "rating": 4
+        },
+        {
+          "name": "Laura",
+          "title": "good course",
+          "description": "Impressed!",
+          "createdAt": "07-12-2021",
+          "rating": 5
+        }
       ]
     }
   ]
