@@ -2,7 +2,6 @@ import { Metadata } from 'next'
 import styles from './page.module.css'
 import './globals.css'
 import { Inter } from 'next/font/google'
-import Link from 'next/link'
 import { Header } from '../(site)/components/Header/Header'
 import { Sidebar } from '../(site)/components/Sidebar/Sidebar'
 import { Footer } from '../(site)/components/Footer/Footer'
@@ -16,7 +15,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="ru">
+    <html lang="en">
       <body className={inter.className}>
         <div className={styles.wrapper}>
           <Header className={styles.header} />
@@ -28,6 +27,3 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   )
 }
-
-// title: 'Наш проект'
-// title: 'Исправленные данные',

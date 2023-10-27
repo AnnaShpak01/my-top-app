@@ -2,6 +2,7 @@ import Image from 'next/image'
 import styles from './page.module.css'
 import { Metadata } from 'next'
 import { getMenu } from '@/api/menu'
+import Link from 'next/link'
 // import { Menu } from './components/Menu/Menu'
 // import { Sidebar } from './components/Sidebar/Sidebar'
 // import data from '../data/data.json'
@@ -22,8 +23,21 @@ export async function generateMetadata(): Promise<Metadata> {
 // });
 
 export default async function Home() {
-  const menu = getMenu(0)
-  console.log(menu)
+  return (
+    <main className={styles.main}>
+      <div>
+        <h1>Welcome to our website!</h1>
+        <div>With us you can improve your skills by reading our courses and books</div>
 
-  return <main className={styles.main}>Main Page</main>
+        <div className={styles.links}>
+          <Link href={`/courses/`} key="courses" className={styles.linked}>
+            Courses
+          </Link>
+          <Link href={`/books/`} key="books" className={styles.linked}>
+            Books
+          </Link>
+        </div>
+      </div>
+    </main>
+  )
 }
