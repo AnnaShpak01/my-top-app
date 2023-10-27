@@ -6,7 +6,7 @@ import { Input } from '../Input/Input'
 import Rating from '../Rating/Rating'
 import { Textarea } from '../Textarea/Textarea'
 import { useForm, Controller } from 'react-hook-form'
-import { IReviewForm, IReviewSentResponse } from './ReviewForm.interface'
+import { IReviewForm } from './ReviewForm.interface'
 import { useState } from 'react'
 import { Button } from '../Button/Button'
 import { PagesData } from '@/interfaces/page.interface'
@@ -42,7 +42,6 @@ export const ReviewForm = ({
   }
 
   function saveUpdatedData(updatedData: IReviewForm) {
-    console.log(updatedData)
     fetch('/api/updateData', {
       method: 'POST',
       headers: {
