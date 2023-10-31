@@ -1,0 +1,51 @@
+.wrappercontainer {
+  padding: 25px 0;
+}
+
+.h1 {
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.undertitle {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.wrapperbook {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 8px 0px;
+  grid-template-areas:
+    'logo title '
+    'logo author '
+    'logo description ';
+  padding: 20px 20px 20px 0px;
+  border: 1px solid #aaa;
+  background-color: #fefefe;
+  margin-bottom: 20px;
+}
+
+.logo {
+  grid-area: logo;
+}
+
+.title {
+  grid-area: title;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.description {
+  grid-area: description;
+  font-size: 16px;
+}
+
+.author {
+  grid-area: author;
+  font-size: 16px;
+  font-weight: bold;
+}
