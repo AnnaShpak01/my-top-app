@@ -1,5 +1,0 @@
-export * from '../(site)/components/Htag/Htag'
-export * from '../(site)/components/Button/Button'
-export * from '../(site)/components/P/P'
-export * from '../(site)/components/Tag/Tag'
-export * from '../(site)/components/Rating/Rating'

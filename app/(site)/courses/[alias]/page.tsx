@@ -1,7 +1,5 @@
 'use client'
 import styles from '../courses.module.css'
-//import { getMenu } from '@/api/menu';
-//import { getPage } from '@/api/page'
 import { Metadata } from 'next'
 import { notFound, usePathname } from 'next/navigation'
 import data from '../../../../public/data/data.json'

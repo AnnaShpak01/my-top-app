@@ -30,23 +30,23 @@
       ],
       "reviews": [
         {
-          "name": "Alex",
-          "title": "good course",
-          "description": "Not bad",
+          "name": "Bob",
+          "title": "Slow",
+          "description": "The pace is a bit slow for me because I have some experience coding before. But some projects are really exciting! Overall, it's a good course, especially for beginner.",
           "createdAt": "11-02-2019",
           "rating": 4
         },
         {
-          "name": "Laura",
-          "title": "good course",
-          "description": "Impressed!",
+          "name": "Jack",
+          "title": "Greatful",
+          "description": "Thank you for this platform in python coding. I will be enrolling in the web scraping and machine learning aswell. Looking for the same lecturer...",
           "createdAt": "07-12-2021",
           "rating": 5
         },
         {
-          "name": "Sherlock Holme",
-          "title": "апро",
-          "description": "итьбю",
+          "name": "Mike",
+          "title": "The best python course",
+          "description": "The best python course I've ever did. But if you want to be updated of some libraries you need to search in your own or go to the zero to mastery website course. But in overall I'm very satisfied with this course.",
           "createdAt": "2023-10-23T15:27:08.579Z",
           "rating": 5
         }
@@ -116,38 +116,38 @@
       ],
       "reviews": [
         {
-          "name": "Alex",
-          "title": "good course",
-          "description": "Not bad",
+          "name": "Matias",
+          "title": "Looks easy, good job",
+          "description": "Genius instructor..He makes things look so easy, if you're ready to put in your time",
           "createdAt": "11-02-2019",
           "rating": 4
         },
         {
           "name": "Laura",
-          "title": "good course",
-          "description": "Impressed!",
+          "title": "Amazing",
+          "description": "He kept an amazing pace to the course with a variety of intriguing exercises to keep you hooked and help memorize the concepts",
           "createdAt": "07-12-2021",
           "rating": 5
         },
         {
-          "name": "Sherlock Holme",
-          "title": "qwertret",
-          "description": "qrtery",
+          "name": "Ravi",
+          "title": "Educative",
+          "description": "Yes, it was really engaging and educative. Lots of new concepts learnt during the course. The highlight is anyone without coding knowledge can also learn and get benefited by this. I will strongly recommend this to any of the Java script enthusiasts. Thanks Jonas. Happy to chosen you for my career growth.",
           "createdAt": "2023-10-23T15:31:28.521Z",
           "rating": 5
         },
         {
-          "name": "Anna",
-          "title": "wow",
-          "description": "perfect",
+          "name": "Oscar",
+          "title": "Wow",
+          "description": "Absolutely a fantastic teacher you can get through online courses.",
           "createdAt": "2023-10-24T12:01:46.432Z",
           "rating": 5
         },
         {
-          "name": "sfgh",
-          "title": "sdfh",
-          "description": "sdfhgh",
-          "createdAt": "2023-10-24T15:21:00.293Z",
+          "name": "Xavi",
+          "title": "I so happy to join this",
+          "description": "It's my fortune to join this course..I learned so much from this ( One of the Best Javascript Course on Internet",
+          "createdAt": "05-09-2022",
           "rating": 4
         }
       ]
@@ -187,18 +187,18 @@
       ],
       "reviews": [
         {
-          "name": "Alex",
-          "title": "good course",
-          "description": "Not bad",
+          "name": "Andrew",
+          "title": "Informative and interesting",
+          "description": "From the reviews, i expected this to be a good course and it was. What made it better than just good was the instructor's explanations of small pieces of code other tutorials have either glossed over or flogged to death with over-complicated slides. He hits that nice balance of informal and informative.",
           "createdAt": "11-02-2019",
-          "rating": 4
+          "rating": 5
         },
         {
-          "name": "Laura",
-          "title": "good course",
-          "description": "Impressed!",
+          "name": "Tim",
+          "title": "Not bad",
+          "description": "Covers a lot. But is on some points a bit outdated, and lacks some things like entity framework for example",
           "createdAt": "07-12-2021",
-          "rating": 5
+          "rating": 4
         }
       ]
     },
@@ -244,16 +244,16 @@
       ],
       "reviews": [
         {
-          "name": "Alex",
-          "title": "good course",
-          "description": "Not bad",
+          "name": "Jose",
+          "title": "Amazing",
+          "description": "An amazing course to start building React applications, the instructor is extremely great, he explains everything in different ways and shows us all the possible ways to work with React. If you're thinking about taking your career to the next level and learn something trendy, I really advise you in this course. Lastly, I want to thank the instructor for such a lovely course, I wish you all the best. Regards",
           "createdAt": "11-02-2019",
           "rating": 4
         },
         {
-          "name": "Laura",
-          "title": "good course",
-          "description": "Impressed!",
+          "name": "Apure",
+          "title": "Great course",
+          "description": "It's great course for React Learning. I'm beginner in react but after learnt this course my react basic and advance base clear. Thanks to Maximilian and their team to created such a wonderful course for react learners.",
           "createdAt": "07-12-2021",
           "rating": 5
         }
@@ -296,32 +296,25 @@
       ],
       "reviews": [
         {
-          "name": "Alex",
-          "title": "good course",
-          "description": "Not bad",
+          "name": "Jason W.",
+          "title": "Good course",
+          "description": "Fantastic instructor, providing in depth explanations of concepts to help you learn. I appreciate that in most instances he provides a starting and ending package to at first give you a boost, and then to allow you to compare or troubleshoot your own work against his. Take the time to not only dive into his lessons, but explore on your own. You will grasp the concepts he teaches quickly!",
           "createdAt": "11-02-2019",
           "rating": 4
         },
         {
-          "name": "Laura",
-          "title": "good course",
-          "description": "Impressed!",
-          "createdAt": "07-12-2021",
-          "rating": 5
-        },
-        {
-          "name": "fgh",
-          "title": "мор",
-          "description": "hgkl;",
+          "name": "Alex",
+          "title": "Best Angular course!",
+          "description": "Perhaps the best Angular course out there, this is the second course I take from the same teacher, he has a gift to explain in an easy way to understand",
           "createdAt": "2023-10-24T12:51:20.627Z",
-          "rating": 3
+          "rating": 4
         },
         {
-          "name": "Dan ",
-          "title": "rgev",
-          "description": "asdv",
-          "createdAt": "2023-10-24T14:48:55.886Z",
-          "rating": 4
+          "name": "Abhishek",
+          "title": "Excellent",
+          "description": "Excellent course and i recommend this course to every.Maxmillian is the best tutor for Web courses.",
+          "createdAt": "07-14-2023",
+          "rating": 5
         }
       ]
     },
@@ -353,18 +346,18 @@
       ],
       "reviews": [
         {
-          "name": "Alex",
-          "title": "good course",
-          "description": "Not bad",
+          "name": "Nick",
+          "title": "Good job",
+          "description": "Good training course.I really appreciated the playful Monster project which made it a lot of fun to learn the basic concepts.",
           "createdAt": "11-02-2019",
           "rating": 4
         },
         {
           "name": "Laura",
-          "title": "good course",
-          "description": "Impressed!",
+          "title": "Love it!",
+          "description": "I loved it! Great curse to start working and loving Vue. Great videos on each topic and it builds up incrementally with on-topic examples and proyects. However, if there's something I'd change... I think it's a bit out of date in some topics. I wish I'd use Pinia instead of Vuex and the script setup syntax from the composition api. Still, all knowledge is valuable in the end, and I do recommend it",
           "createdAt": "07-12-2021",
-          "rating": 5
+          "rating": 4
         }
       ]
     }

@@ -4,7 +4,7 @@
       "first": {
         "route": "courses",
         "name": "Courses",
-        "icon": "<CoursesIcon />",
+        "icon": "/images/icons/courses.svg",
         "id": "TopLevelCategory.Courses"
       },
 
@@ -61,7 +61,7 @@
       "first": {
         "route": "books",
         "name": "Books",
-        "icon": "<BooksIcon />",
+        "icon": "/images/icons/books.svg",
         "id": "TopLevelCategory.Books"
       },
 

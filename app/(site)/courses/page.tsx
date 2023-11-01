@@ -11,7 +11,7 @@ import { sortReducer } from './sort.reducer'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'About',
+  title: 'Courses',
 }
 
 export default function Courses(): JSX.Element {

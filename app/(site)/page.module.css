@@ -60,13 +60,47 @@
 .linked {
   font-size: 18px;
   font-weight: bold;
-  padding: 10px 15px;
-  border-radius: 50px;
-  border: 1px solid var(--primary);
+  display: inline-block;
   width: 120px;
 }
 
 .main .h1,
 .main div {
   text-align: center;
+  margin-bottom: 20px;
+}
+
+.compare {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 20px;
+  justify-content: space-between;
+}
+
+.compareblock {
+  padding: 10px;
+  border: 1px solid #aaa;
+  text-align: left;
+}
+
+.cons {
+  background-color: rgb(218, 203, 203);
+}
+
+.pros {
+  background-color: rgb(204, 224, 204);
+}
+
+.compareblock .title {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.compareblock ul {
+  padding-inline-start: 20px;
+}
+
+.compareblock ul li {
+  text-align: left;
 }
