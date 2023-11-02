@@ -121,3 +121,63 @@
 .reviewButton {
   margin-bottom: 20px;
 }
+
+@media (max-width: 991px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .wrappertop {
+    grid-template-areas:
+      'logo title '
+      'logo description '
+      'price rating ';
+  }
+
+  .labeltop {
+    font-size: 12px;
+  }
+  .price span {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .wrappertop {
+    grid-template-areas:
+      'logo title '
+      'logo description '
+      'price rating ';
+  }
+
+  .labeltop {
+    font-size: 14px;
+  }
+  .price span {
+    font-size: 14px;
+  }
+
+  .learn ul li {
+    font-size: 12px;
+  }
+
+  .requirements ul li {
+    font-size: 12px;
+  }
+
+  .about .ab {
+    font-size: 12px;
+  }
+}

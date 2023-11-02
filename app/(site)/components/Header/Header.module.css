@@ -1,0 +1,41 @@
+.header {
+  display: none;
+}
+
+@media (max-width: 765px) {
+  .header {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .header .firstLevel img {
+    display: none;
+  }
+}
+
+.logo {
+  margin: 10px;
+}
+
+.headerrow {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.firstLevel {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  gap: 8px;
+}
+
+.firstLevelActive,
+.firstLevel:hover {
+  color: var(--primary);
+}
+
+.firstLevelActive svg,
+.firstLevel:hover svg {
+  fill: var(--primary);
+}
