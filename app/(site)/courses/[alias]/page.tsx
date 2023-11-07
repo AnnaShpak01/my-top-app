@@ -9,7 +9,7 @@ import Rating from '../../components/Rating/Rating'
 import { P } from '@/app/(site)/components/P/P'
 import { Review } from '../../components/Review/Review'
 import { ReviewForm } from '../../components/ReviewForm/ReviewForm'
-import { forwardRef, useRef, useState } from 'react'
+import { useState } from 'react'
 import { Button } from '../../components/Button/Button'
 import { Card } from '../../components/Card/Card'
 import { motion } from 'framer-motion'
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: 'Courses',
 }
 
-const PageCourses = forwardRef((props, ref) => {
+const PageCourses = () => {
   const pages = data.pages
   const pathname = usePathname()
   const alias = pathname ? pathname.split('/') : []
@@ -29,7 +29,6 @@ const PageCourses = forwardRef((props, ref) => {
   }
 
   const [isReviewOpened, setIsReviewOpened] = useState<boolean>(false)
-  const reviewRef = useRef<HTMLDivElement>(null)
 
   const variants = {
     visible: { opacity: 1, height: 'auto' },
@@ -99,11 +98,7 @@ const PageCourses = forwardRef((props, ref) => {
             animate={isReviewOpened ? 'visible' : 'hidden'}
             variants={variants}
             initial="hidden">
-            <Card
-              color="blue"
-              className={styles.reviews}
-              ref={reviewRef}
-              tabIndex={isReviewOpened ? 0 : -1}>
+            <Card color="blue" className={styles.reviews} tabIndex={isReviewOpened ? 0 : -1}>
               {' '}
               {page.reviews.map((r, i) => (
                 <div key={i}>
@@ -122,8 +117,6 @@ const PageCourses = forwardRef((props, ref) => {
       </div>
     </>
   )
-})
-
-PageCourses.displayName = 'PageCourses'
+}
 
 export default PageCourses

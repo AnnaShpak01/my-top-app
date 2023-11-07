@@ -1,13 +1,12 @@
 'use client'
-import React, { useState } from 'react'
-import classNames from 'classnames'
+import React from 'react'
 import { Metadata } from 'next'
 import styles from './books.module.css'
 import data from '../../../public/data/books.json'
 import Image from 'next/image'
 
 export const metadata: Metadata = {
-  title: 'About',
+  title: 'Books',
 }
 
 export default function Home(): JSX.Element {
